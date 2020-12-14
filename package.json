@@ -1,0 +1,19 @@
+{
+  "name": "jtodo",
+  "version": "0.0.1",
+  "description": "a js tui todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "taotao7",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.20"
+  }
+}
