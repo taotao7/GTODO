@@ -8,3 +8,4 @@ a js tui todo app
 - [ ] 🎊 config file
 - [ ] 💀 deadline
 - [x] 🔔 system notification
+- [ ] 🍅 pomodoro timer 
