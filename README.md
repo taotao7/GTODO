@@ -1,6 +1,10 @@
 # JTODO
 
-a tui todo app
+a js tui todo app
 
-- [ ] 💫hjkl 控制
-- [ ] 💫emoji
+- [ ] snazzy ui
+- [ ] 💫 vim keymapper
+- [ ] 🚀 emoji
+- [ ] 🎊 config file
+- [ ] 💀 deadline
+- [x] 🔔 system notification

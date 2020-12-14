@@ -1,10 +1,10 @@
 {
   "name": "jtodo",
   "version": "0.0.1",
-  "description": "a js tui todo app",
+  "description": "A VIM-inspired Todo App for the console ",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "todo",
@@ -14,6 +14,10 @@
   "license": "MIT",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.8.20"
+    "blessed-contrib": "^4.8.20",
+    "node-notifier": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
