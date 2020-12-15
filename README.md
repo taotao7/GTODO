@@ -1,6 +1,6 @@
-# JTODO
+# GTODO
 
-a js tui todo app
+a go tui todo app
 
 - [ ] 🔔 system notification
 - [ ] ⏰ clock
