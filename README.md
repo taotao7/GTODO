@@ -2,10 +2,12 @@
 
 a js tui todo app
 
-- [ ] snazzy ui
+- [ ] 🔔 system notification
+- [ ] ⏰ clock
+- [ ] 👁‍🗨 snazzy ui
 - [ ] 💫 vim keymapper
 - [ ] 🚀 emoji
 - [ ] 🎊 config file
 - [ ] 💀 deadline
-- [x] 🔔 system notification
-- [ ] 🍅 pomodoro timer 
+- [ ] 🍅 pomodoro timer
+- [ ] 🧶 sync data online
