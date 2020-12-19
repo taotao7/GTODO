@@ -3,22 +3,32 @@ package main
 import "github.com/marcusolsson/tui-go"
 
 func ui() *tui.Box {
-	user := tui.NewEntry()
-	user.SetFocused(true)
-	password := tui.NewEntry()
-	password.SetEchoMode(tui.EchoModePassword)
+	todoLists := getListDatas()[0]
+	completeLists := getListDatas()[1]
 
-	form := tui.NewGrid(0, 0)
-	form.AppendRow(tui.NewLabel("🙍用户"), tui.NewLabel("🔑密码"))
-	form.AppendRow(user, password)
+	form := tui.NewTable(0, 0)
+	form.SetFocused(false)
+	form.SetColumnStretch(0, 1)
+	form.SetColumnStretch(1, 1)
+	form.AppendRow(
+		tui.NewLabel("🚅TODOS"),
+		tui.NewLabel("🔥COMPLETE"),
+	)
+
+	for _, value := range todoLists {
+		form.AppendRow(tui.NewLabel(value))
+	}
+
+	for _, value := range completeLists {
+		form.AppendRow(tui.NewLabel(value))
+	}
 
 	box := tui.NewVBox(
-		tui.NewPadder(1, 0, form),
+		form,
 	)
-	box.SetTitle("TODO🚀")
+	box.SetTitle("TODOAPP🚀")
 	box.SetBorder(true)
 	box.SetSizePolicy(tui.Preferred, tui.Maximum)
 
-	tui.DefaultFocusChain.Set(user, password)
 	return box
 }

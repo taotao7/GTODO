@@ -6,8 +6,9 @@ a js tui todo app
 - [ ] ⏰ clock
 - [ ] 👁‍🗨 snazzy ui
 - [ ] 💫 vim keymapper
-- [ ] 🚀 emoji
+- [x] 🚀 emoji
 - [ ] 🎊 config file
 - [ ] 💀 deadline
 - [ ] 🍅 pomodoro timer
 - [ ] 🧶 sync data online
+- [x] 💴 yaml parse
